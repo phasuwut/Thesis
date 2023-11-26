@@ -19,7 +19,7 @@ model_path = os.path.join('.', 'runs', 'detect', 'train', 'weights', 'last.pt')
 # Load a model
 model = YOLO(model_path)  # load a custom model
 
-threshold = 0.5
+threshold = 0.1
 
 while ret:
 
